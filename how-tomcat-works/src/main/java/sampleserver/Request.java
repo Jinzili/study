@@ -29,9 +29,7 @@ public class Request {
             i = -1;
         }
         IntStream.range(0, i)
-                .forEach(j -> {
-                    request.append((char)buffer[j]);
-                });
+                .forEach(j -> request.append((char)buffer[j]));
         System.out.print(request.toString());
         this.uri = parseUri(request.toString());
     }

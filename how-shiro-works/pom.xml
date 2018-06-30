@@ -5,14 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>study</artifactId>
-        <groupId>com.jinzili.study</groupId>
-        <version>0.1.0</version>
+        <artifactId>parent</artifactId>
+        <groupId>com.jinzili</groupId>
+        <version>1.0</version>
     </parent>
     <artifactId>how-shiro-works</artifactId>
 
     <dependencies>
-
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-core</artifactId>
