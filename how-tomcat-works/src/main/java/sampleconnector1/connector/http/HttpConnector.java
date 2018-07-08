@@ -1,4 +1,4 @@
-package sampleconnector1.http;
+package sampleconnector1.connector.http;
 
 import java.io.IOException;
 import java.net.InetAddress;

@@ -1,5 +1,7 @@
 package sampleconnector1.startup;
 
+import sampleconnector1.connector.http.HttpConnector;
+
 /**
  * FUNCTION:
  * author: jinzili
@@ -8,7 +10,8 @@ package sampleconnector1.startup;
 public class Bootstrap {
 
     public static void main(String[] args) {
-
+        HttpConnector connector = new HttpConnector();
+        connector.start();
     }
 
 }

@@ -27,4 +27,19 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <uriEncoding>UTF-8</uriEncoding>
+                    <path>/</path>
+                    <port>88</port>
+                    <useTestClasspath>false</useTestClasspath>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
