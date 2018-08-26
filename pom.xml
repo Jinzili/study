@@ -13,6 +13,16 @@
         <module>parent</module>
         <module>how-tomcat-works</module>
         <module>how-shiro-works</module>
+        <module>how-zk-works</module>
+        <module>how-multithread-works</module>
+        <module>how-javabase-works</module>
+        <module>how-rpc-works-client</module>
+        <module>how-rpc-works-common</module>
+        <module>how-rpc-works-registry</module>
+        <module>how-rpc-works-sample-app</module>
+        <module>how-rpc-works-sample-client</module>
+        <module>how-rpc-works-sample-server</module>
+        <module>how-rpc-works-server</module>
     </modules>
 
 </project>
